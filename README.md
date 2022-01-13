@@ -12,3 +12,8 @@ curl -sL https://trendyol.com/brand/product-p-[SKU] | tr '\r\n' ' ' | grep -oP "
 - grep (GNU grep) 3.7 (_BSD version is not compatible_)
 - sed (GNU sed) 4.8
 - jq-1.6
+
+### todos
+
+- [ ] dockerfile
+- [ ] js export
