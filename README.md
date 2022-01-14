@@ -1,6 +1,4 @@
-## on CLI
-
-#### One-line command
+### One-line command
 
 ```
 curl -sL https://trendyol.com/brand/product-p-[SKU] | tr '\r\n' ' ' | grep -oP "\{(?:[^{}]|(?R))*\}" | grep 'alternativeVariants' | sed -s 's/<[^>]*>//g' | jq -c .product
@@ -14,13 +12,8 @@ curl -sL https://trendyol.com/brand/product-p-[SKU] | tr '\r\n' ' ' | grep -oP "
 - jq-1.6
 
 
-## Try it on docker
+### Try it on docker
 
 ```bash
 docker container run -it --rm sametcodes/tyolscraper SKU
 ```
-
-### Todos
-
-- [x] dockerfile
-- [ ] <s>js export</s>
