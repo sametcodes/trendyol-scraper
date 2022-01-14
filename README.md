@@ -23,4 +23,4 @@ docker container run -it --rm sametcodes/tyolscraper SKU
 ### Todos
 
 - [x] dockerfile
-- [ ] js export
+- [ ] <s>js export</s>
